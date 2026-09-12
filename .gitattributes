@@ -1,0 +1,4 @@
+# LF in the repository and LF on disk. Git for Windows sets core.autocrlf=true
+# system-wide, which rewrites the working tree on checkout while `git diff` stays
+# clean. Nothing here reads raw bytes, but the same rule applies as in the app repo.
+* text=auto eol=lf
