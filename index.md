@@ -4,9 +4,8 @@ layout: default
 
 # Privacy Policy — MedSup
 
-**Last updated: 12 September 2026** — named the developer, listed the permissions
-Android grants without asking, and matched the *Doctor* entry to what the app calls
-that field. Nothing about what MedSup collects changed; it is still nothing.
+**Last updated: September 14, 2026** — the startup permission now says what MedSup
+uses it for. Nothing about what MedSup collects changed; it is still nothing.
 
 MedSup is a medication supply tracker. This policy explains what it does
 with your information. The short version: it does not collect any of it.
@@ -73,8 +72,7 @@ built on:
   come from the app framework and from a messaging library bundled with the
   notification support.
 - **Running at startup.** Android discards scheduled alarms when the phone
-  restarts, and this is the permission that lets an app set its reminders up
-  again afterwards.
+  restarts. MedSup uses this to set your reminders up again afterwards.
 - **Keeping the phone awake.** Arrives with the same notification support.
 - **Storage, on Android 12 and older only.** From the file and photo-picking
   libraries. On Android 13 and later MedSup uses your phone's own photo picker,
