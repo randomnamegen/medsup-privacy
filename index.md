@@ -4,11 +4,25 @@ layout: default
 
 # Privacy Policy — MedSup
 
-**Last updated: September 14, 2026** — the startup permission now says what MedSup
-uses it for. Nothing about what MedSup collects changed; it is still nothing.
+**Last updated: September 15, 2026** — added a summary at the top, removed the list
+of permissions MedSup never asks for, and matched two mentions of the doctor to the
+app. Nothing about what MedSup collects changed; it is still nothing.
 
 MedSup is a medication supply tracker. This policy explains what it does
 with your information. The short version: it does not collect any of it.
+
+## At a glance
+
+| | |
+|---|---|
+| **Collected by us** | Nothing. No account, no server, no analytics |
+| **Shared or sold** | Nothing, to anyone |
+| **Where it is stored** | On your phone, in MedSup's private storage |
+| **Encrypted** | By your phone always; by MedSup too with a PIN |
+| **Can it leave your phone?** | Only in your phone's own backup, if that is on, and never your photos |
+| **How long it is kept** | Until you delete it; dose history about 13 months |
+| **Deleting it** | Settings → Clear all data, or uninstall |
+| **Contact** | cheekychamois@protonmail.com |
 
 ---
 
@@ -61,22 +75,6 @@ placed in shared storage, and other apps cannot read it.
 
 Every one of these is optional. Declining any of them leaves the rest of the
 app working.
-
-Android's own permission list shows a few more that MedSup never asks you for,
-because they are granted automatically or arrive with the libraries the app is
-built on:
-
-- **Internet access, and reading network state.** Neither is used. MedSup makes
-  no network requests — which has been checked on a device rather than assumed,
-  by watching what the app's own process sends and finding nothing at all. They
-  come from the app framework and from a messaging library bundled with the
-  notification support.
-- **Running at startup.** Android discards scheduled alarms when the phone
-  restarts. MedSup uses this to set your reminders up again afterwards.
-- **Keeping the phone awake.** Arrives with the same notification support.
-- **Storage, on Android 12 and older only.** From the file and photo-picking
-  libraries. On Android 13 and later MedSup uses your phone's own photo picker,
-  which needs no permission at all.
 
 ## Your phone's own backup
 
@@ -131,7 +129,7 @@ phone, and it would be dishonest to let the two blur together:
 
 - **Without a PIN set, anyone who can unlock your device can open MedSup
   and read all of it** — your medications and notes, photos, pharmacy and
-  prescriber details, and dose history.
+  doctor's details, and dose history.
 - **Reminders can show a medication's name** on your lock screen or in your
   notification shade, where someone glancing at your phone could read it. This
   is true whether or not you set a PIN: reminders are handed to the operating
@@ -146,7 +144,7 @@ phone, and it would be dishonest to let the two blur together:
 
 If you set a PIN under **Settings → App lock**, MedSup encrypts your
 medications, your dose history — both the doses you take on a schedule and the
-ones you log as needed — your streak, the pharmacy and prescriber the form
+ones you log as needed — your streak, the pharmacy and doctor the form
 offers to reuse, and its list of leftover photo files, before writing them
 down. The key is protected by your PIN and by your recovery code, and it exists
 only while the app is open — so those records cannot be read off the device
