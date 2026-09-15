@@ -13,7 +13,7 @@ with your information. The short version: it does not collect any of it.
 
 ## At a glance
 
-| | |
+| Question | Answer |
 |---|---|
 | **Collected by us** | Nothing. No account, no server, no analytics |
 | **Shared or sold** | Nothing, to anyone |
