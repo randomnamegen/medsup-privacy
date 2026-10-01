@@ -4,9 +4,9 @@ layout: default
 
 # Privacy Policy — MedSup
 
-**Last updated: September 15, 2026** — added a summary at the top, removed the list
-of permissions MedSup never asks for, and matched two mentions of the doctor to the
-app. Nothing about what MedSup collects changed; it is still nothing.
+**Last updated: September 28, 2026** — added *Sharing a list with your doctor*: MedSup
+can now make a list of your medications for you to send yourself. Nothing about what
+MedSup collects changed; it is still nothing.
 
 MedSup is a medication supply tracker. This policy explains what it does
 with your information. The short version: it does not collect any of it.
@@ -19,7 +19,7 @@ with your information. The short version: it does not collect any of it.
 | **Shared or sold** | Nothing, to anyone |
 | **Where it is stored** | On your phone, in MedSup's private storage |
 | **Encrypted** | By your phone always; by MedSup too with a PIN |
-| **Can it leave your phone?** | Only in your phone's own backup, if that is on, and never your photos |
+| **Can it leave your phone?** | Only in a list you share yourself, or in your phone's own backup if that is on. Never your photos |
 | **How long it is kept** | Until you delete it; dose history about 13 months |
 | **Deleting it** | Settings → Clear all data, or uninstall |
 | **Contact** | cheekychamois@protonmail.com |
@@ -39,7 +39,8 @@ Specifically, the app does **not**:
 - share or sell anything to anyone
 - contain any third-party service that receives your data
 
-Nobody can see what you enter — including us. We have no way to access it.
+Nobody can see what you enter — including us — unless you share a list of it
+yourself, and then only whoever you send it to. We have no way to access it.
 
 ## What is stored, and where
 
@@ -62,6 +63,28 @@ Everything you enter stays on your own device, in the app's private storage:
 
 This information is readable only by MedSup on your device. It is not
 placed in shared storage, and other apps cannot read it.
+
+## Sharing a list with your doctor
+
+**Settings → Share a list for your doctor** makes a PDF of your medications and
+opens your phone's share sheet. You choose where it goes — an email, a message,
+a printer, a file — and it goes only there. Nothing is sent to us, and we never
+see it.
+
+The list holds each medication you take now, with its strength, dose and times,
+its directions and notes, and its doctor and pharmacy; the medications you have
+stopped, and when; and how many doses you marked as taken in the last 30 days.
+It does not include your photos or your name.
+
+Three things worth knowing about it:
+
+- **Once you send it, that copy is wherever you sent it**, under that app's
+  terms rather than ours. Deleting it there is up to you.
+- **It is not encrypted, even with a PIN set.** It is made for someone else to
+  read.
+- **MedSup keeps the last list it made** in its private storage, which other
+  apps cannot read, until you make the next one, which replaces it, or clear all
+  data. Your phone's backup never includes it.
 
 ## Permissions, and why they exist
 
@@ -107,8 +130,9 @@ to the default:
 
 Deleting a medication removes it and its photo from your device. **Settings →
 Clear all data** removes everything at once — every medication, every dose you
-have logged, every photo, every reminder, and every setting — and returns the
-app to its first run. On the rare occasion the phone refuses to delete a photo
+have logged, every photo, every reminder, every setting, and the last list you
+shared — and returns the app to its first run. A list you have already sent is
+wherever you sent it, and is not something MedSup can reach. On the rare occasion the phone refuses to delete a photo
 file straight away, that file is queued and removed the next time you open the
 app, rather than being left behind. Uninstalling MedSup also removes
 everything the app stored there.
@@ -170,6 +194,8 @@ none:
   screen correctly.
 - **Your settings are not encrypted** — appearance, haptics, how reminders
   arrive and what they show. They are not health information.
+- **A list you share is not encrypted**, and neither is the copy MedSup keeps
+  until you make the next one. See *Sharing a list with your doctor*.
 - **If you forget both your PIN and your recovery code, the encrypted records
   cannot be recovered by anyone, including us.** That is what the encryption
   means. The app will offer to start you over from empty, which is the only
