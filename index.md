@@ -4,9 +4,10 @@ layout: default
 
 # Privacy Policy — MedSup
 
-**Last updated: September 28, 2026** — added *Sharing a list with your doctor*: MedSup
-can now make a list of your medications for you to send yourself. Nothing about what
-MedSup collects changed; it is still nothing.
+**Last updated: October 5, 2026** — renamed *Sharing a list with your doctor* to
+*Sharing your medication list*, to match the app: the list is for whoever you choose
+to send it to. And the *Photos* permission now says which phones ask for it. Nothing
+about what MedSup collects changed; it is still nothing.
 
 MedSup is a medication supply tracker. This policy explains what it does
 with your information. The short version: it does not collect any of it.
@@ -64,9 +65,9 @@ Everything you enter stays on your own device, in the app's private storage:
 This information is readable only by MedSup on your device. It is not
 placed in shared storage, and other apps cannot read it.
 
-## Sharing a list with your doctor
+## Sharing your medication list
 
-**Settings → Share a list for your doctor** makes a PDF of your medications and
+**Settings → Share your medication list** makes a PDF of your medications and
 opens your phone's share sheet. You choose where it goes — an email, a message,
 a printer, a file — and it goes only there. Nothing is sent to us, and we never
 see it.
@@ -92,7 +93,7 @@ Three things worth knowing about it:
 |---|---|
 | **Notifications** | To remind you to take a dose or refill. Reminders are created and scheduled entirely on your device; nothing is sent through any server. |
 | **Camera** | Only if you choose to photograph a medication. The photo is saved on your device. |
-| **Photos** | Only if you choose an existing picture instead of taking one. |
+| **Photos** | Only on Android 12 and older, and only if you choose an existing picture instead of taking one. Newer phones open Android's own photo picker instead, which needs no permission and gives MedSup only the picture you choose. |
 | **Vibration** | For the short buzz when you tap a button, and for reminders. Can be turned off in Settings. |
 | **Alarms & reminders** | So a reminder arrives at the minute you set rather than whenever the system next decides to wake the app. Android asks for this one separately, on its own settings screen. Without it MedSup schedules **no** reminders at all and tells you why — a reminder that arrives an hour late is worse than none, because a missing one gets noticed and a late one just looks like the time you chose. |
 
@@ -132,10 +133,10 @@ Deleting a medication removes it and its photo from your device. **Settings →
 Clear all data** removes everything at once — every medication, every dose you
 have logged, every photo, every reminder, every setting, and the last list you
 shared — and returns the app to its first run. A list you have already sent is
-wherever you sent it, and is not something MedSup can reach. On the rare occasion the phone refuses to delete a photo
-file straight away, that file is queued and removed the next time you open the
-app, rather than being left behind. Uninstalling MedSup also removes
-everything the app stored there.
+wherever you sent it, and is not something MedSup can reach. On the rare occasion
+the phone refuses to delete a photo file straight away, that file is queued and
+removed the next time you open the app, rather than being left behind.
+Uninstalling MedSup also removes everything the app stored there.
 
 If your phone's backup includes MedSup, a copy can outlive the uninstall
 and be restored later to a new device. Removing that copy is done through your
@@ -195,7 +196,7 @@ none:
 - **Your settings are not encrypted** — appearance, haptics, how reminders
   arrive and what they show. They are not health information.
 - **A list you share is not encrypted**, and neither is the copy MedSup keeps
-  until you make the next one. See *Sharing a list with your doctor*.
+  until you make the next one. See *Sharing your medication list*.
 - **If you forget both your PIN and your recovery code, the encrypted records
   cannot be recovered by anyone, including us.** That is what the encryption
   means. The app will offer to start you over from empty, which is the only
