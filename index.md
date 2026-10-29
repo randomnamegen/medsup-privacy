@@ -4,10 +4,11 @@ layout: default
 
 # Privacy Policy — MedSup
 
-**Last updated: October 5, 2026** — renamed *Sharing a list with your doctor* to
-*Sharing your medication list*, to match the app: the list is for whoever you choose
-to send it to. And the *Photos* permission now says which phones ask for it. Nothing
-about what MedSup collects changed; it is still nothing.
+**Last updated: October 29, 2026** — the settings that are not encrypted now include
+the time zone your dose times are kept in, if you choose to keep the same time
+between doses when you travel. And a shared list now names the medications you have
+*put on hold*, where it said *stopped*, to match the app. Nothing about what MedSup
+collects changed; it is still nothing.
 
 MedSup is a medication supply tracker. This policy explains what it does
 with your information. The short version: it does not collect any of it.
@@ -74,7 +75,7 @@ see it.
 
 The list holds each medication you take now, with its strength, dose and times,
 its directions and notes, and its doctor and pharmacy; the medications you have
-stopped, and when; and how many doses you marked as taken in the last 30 days.
+put on hold, and since when; and how many doses you marked as taken in the last 30 days.
 It does not include your photos or your name.
 
 Three things worth knowing about it:
@@ -194,7 +195,10 @@ none:
   needs them before it can ask for your PIN, to greet you and to draw the lock
   screen correctly.
 - **Your settings are not encrypted** — appearance, haptics, how reminders
-  arrive and what they show. They are not health information.
+  arrive and what they show, and, if you choose to keep the same time between
+  doses when you travel, the time zone your dose times are set in. They are
+  not health information. The time zone is read before your PIN, because it
+  decides what day it is.
 - **A list you share is not encrypted**, and neither is the copy MedSup keeps
   until you make the next one. See *Sharing your medication list*.
 - **If you forget both your PIN and your recovery code, the encrypted records
