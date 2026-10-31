@@ -4,11 +4,9 @@ layout: default
 
 # Privacy Policy — MedSup
 
-**Last updated: October 29, 2026** — the settings that are not encrypted now include
-the time zone your dose times are kept in, if you choose to keep the same time
-between doses when you travel. And a shared list now names the medications you have
-*put on hold*, where it said *stopped*, to match the app. Nothing about what MedSup
-collects changed; it is still nothing.
+**Last updated: October 30, 2026** — dose history, and any dose you log as needed,
+is now kept for about 60 days, where it was about 13 months. Nothing about what
+MedSup collects changed; it is still nothing.
 
 MedSup is a medication supply tracker. This policy explains what it does
 with your information. The short version: it does not collect any of it.
@@ -22,7 +20,7 @@ with your information. The short version: it does not collect any of it.
 | **Where it is stored** | On your phone, in MedSup's private storage |
 | **Encrypted** | By your phone always; by MedSup too with a PIN |
 | **Can it leave your phone?** | Only in a list you share yourself, or in your phone's own backup if that is on. Never your photos |
-| **How long it is kept** | Until you delete it; dose history about 13 months |
+| **How long it is kept** | Until you delete it; dose history about 60 days |
 | **Deleting it** | Settings → Clear all data, or uninstall |
 | **Contact** | cheekychamois@protonmail.com |
 
@@ -58,7 +56,7 @@ Everything you enter stays on your own device, in the app's private storage:
   for whoever prescribed it. These are somebody else's contact details, and the
   app also remembers them to fill in the next medication you add
 - **Dose history** — which doses you marked as taken or skipped, and any dose
-  you logged as needed, kept for about 13 months and then discarded, along with
+  you logged as needed, kept for about 60 days and then discarded, along with
   the streak counted from it
 - **Your settings** — your first name if you give one, appearance, reminders,
   and how you prefer to track
